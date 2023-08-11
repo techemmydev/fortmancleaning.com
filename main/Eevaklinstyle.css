@@ -1,0 +1,849 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+   body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+   }
+/*the email and phone number*//*the email and phone number*//*the email and phone number*/
+   .mainheader{
+    background-color: white;
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .mainheadertitle i{
+      color: #93cb52;
+  }
+  .mainheadertitle{
+    padding: 20px;
+    text-align: center;
+    font-size:small;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    color: black;
+  }
+  .email {
+      margin-right: 35px;
+  }
+   .text-primary{
+    color: #93cb52;
+}
+.text-primary2{
+  
+  color: green;
+  }
+
+  /*the email and phone number*//*the email and phone number*//*the email and phone number*/
+
+  /*navbar link*/ /*navbar link*/ /*navbar link*/ /*navbar link*/ /*navbar link*/ /*navbar link*/ /*navbar link*/
+   #navbar{
+    background: white;
+    color: grey;
+position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 2rem;
+    border-bottom: green solid 2px;
+    text-transform: capitalize;
+    
+}
+#navbar i{
+  color: #333;
+}
+
+.logo{
+  font-size: x-large;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#navbar ul li a{
+ color: gray;
+ padding: 0.75rem;
+ margin: 0 0.25rem;
+ text-decoration: none;
+ text-transform: capitalize;
+ font-size: large;
+}
+#navbar ul li ul {
+  display: none;
+  position: absolute;
+  background-color: white;
+  padding: 20px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+#navbar ul li:hover ul{
+  display: block;
+  
+}
+#navbar ul li ul li {
+  width: 340px;
+  border-radius: 4px;
+  text-align: justify;
+}
+#navbar ul li ul li a{
+padding: 8px 14px;
+line-height: 3rem;
+}
+
+#navbar ul li a:hover{
+transition: .3s;
+ border-radius:5px ;
+ color: #ffffff;
+ background-color: #93cb52;
+
+}
+
+ /*navbar link*/ /*navbar link*/ /*navbar link*/ /*navbar link*/ /*navbar link*/ /*navbar link*/ /*navbar link*/
+
+  /*animation image*//*animation image*//*animation image*//*animation image*//*animation image*/
+.big-image{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background-size:cover;
+    background-position:center;
+background-image: url('../image/ciiii.jpg');
+  animation: change 20s;
+  animation-iteration-count: infinite;
+  }
+  
+  @keyframes change{
+    0%{
+  background-image:url('../image/buid4.jpg') ;
+    }
+    20%{
+  background-image: url('../image/buid4.jpg');
+    }
+  20.01%{
+  background-image:url('../image/house.jpg') ;
+   }
+  40%{
+  background-image: url('../image/house.jpg');
+   }
+   40.01%{
+  background-image:url('../image/ciiii.jpg') ;
+    }
+  60%{
+  background-image: url('../image/ciiii.jpg');
+   }
+  60.01%{
+   background-image:url('../image/covid.jpg') ;
+    }
+    80%{
+    background-image: url('../image/covid.jpg');
+    }  
+  80.01%{
+    background-image:url('../image/table\ clean.jpg') ;
+        }
+  100%{
+      background-image: url('../image/table\ clean.jpg');
+        }
+  
+       }
+  
+  
+  .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+ 
+  .overlay h1{
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: white;
+  }
+  .overlay p{
+    font-size: 15px;
+   text-transform: capitalize;
+   color: white;
+   margin-top: 30px;
+   letter-spacing: 3px;
+   font-weight: bold;
+  
+  }
+  
+  .overlay a{
+    text-decoration: none;
+    margin-top: 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+    transition: .3s;
+    font-weight: 400;
+background-color: #93cb52;
+  
+  }
+  .overlay a:hover{
+  background-color: darkgreen;
+    color: #ffffff;
+    transition:.2s ;
+    border: none;
+
+  
+  }
+  .overlay .respond{
+    display: none;
+  }
+
+  /*animation image*//*animation image*//*animation image*//*animation image*//*animation image*/
+/*our cleaning services*//*our cleaning services*//*our cleaning services*//*our cleaning services*/
+
+ 
+#sho h2{
+  font-size: 25px;
+  text-align: center;
+color: grey;
+text-transform: capitalize;
+}
+
+#sho p{
+  text-align: center;
+    line-height: 2rem;
+    padding: 10px;
+    font-size: 15px;
+    overflow: hidden;
+   text-transform: capitalize;
+  
+   margin-bottom: 2rem;
+  
+}
+#sho .center {
+  display: none;
+}
+
+
+  
+  #what{
+background-color: white;
+  }
+  .container{
+    max-width:1100px ;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+    }
+    .text-center{
+     text-align: center;
+     color: #333;
+     
+    }
+   
+    .m-heading{
+     font-size: 2rem;
+     margin-bottom: 0.75rem;
+     line-height: 1.1;
+    }
+  
+    .py-1{padding: 1.5rem 0;}
+    .py-1{padding: 2rem 0;}
+    .py-1{padding: 3rem 0;}
+
+    .item{
+      float: left;
+      width: 32.3%;
+      border: none;
+      box-sizing: border-box;
+      padding: 10px;
+overflow: auto;
+text-align: center;
+    }
+
+.item IMG{
+  width: 30%;
+}
+
+.ourchurch{
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+font-weight: bold;
+  letter-spacing: 3px;
+  color:#93cb52;
+}
+
+.item p{
+  margin-top: 2rem;
+text-align: center;
+font-size: 17px;
+color: grey;
+  text-transform: capitalize;
+
+font-weight: bold;
+
+
+}
+  /*our cleaning services*//*our cleaning services*//*our cleaning services*//*our cleaning services*/
+
+/* PROFESSIONAL INDUSTRIAL & COMMERCIAL CLEANING SOLUTIONS*//* PROFESSIONAL INDUSTRIAL & COMMERCIAL CLEANING SOLUTIONS*/
+#aboutus{
+  background-color:#333;
+  overflow: hidden;
+}
+.page-container{
+display: grid;
+grid-template-columns: 5fr 2fr;
+margin: 2rem 0;
+grid-gap:1.5rem;
+background-color: white;
+}
+
+.page-container *:first-child{
+grid-row: 1/span 3;
+}
+
+.card{
+padding: 2rem;
+}
+.card h1{
+text-align: left;
+margin-bottom: 2rem;
+text-transform: uppercase;
+font-size:20px;
+font-weight: 500;
+color: darkgreen;
+}
+.card p{
+font-size: 14px;
+text-transform: capitalize;
+font-weight: 400;
+padding-bottom: 25px;
+color: grey;
+line-height: 2rem;
+font-size: 13px;
+}
+.join{
+
+padding: 2rem;
+text-align: center; 
+background-size: cover;
+background-position: center;
+background-image: url('../image/cleaning-service-during-work-PPTAZG5-1024x683.jpg');
+height: 50vh;
+}
+.join:hover{
+
+  padding: 2rem;
+  text-align: center; 
+  background-size: cover;
+  background-position: center;
+  background-image: url('../image/covid.jpg');
+  height: 50vh;
+  }
+
+.btn-joinnow {
+text-decoration: none;
+color: #ffffff;
+background-color: #93cb52;
+padding: 15px;
+text-transform: capitalize;
+}
+.btn-joinnow:hover{
+color: #ffffff;
+background-color: darkgreen;
+}
+
+/* PROFESSIONAL INDUSTRIAL & COMMERCIAL CLEANING SOLUTIONS*//* PROFESSIONAL INDUSTRIAL & COMMERCIAL CLEANING SOLUTIONS*/
+
+
+/*our teams*//*our teams*//*our teams*//*our teams*//*our teams*//*our teams*//*our teams*//*our teams*//*our teams*/
+
+.overlayimage{
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  background-size:cover;
+  background-position: center;
+  animation: overlayimage 20s;
+   animation-iteration-count: infinite;
+   
+}
+
+@keyframes overlayimage{
+  0%{
+background-image:url('../image/buid2.jpg') ;
+  }
+  20%{
+background-image: url('../image/buid2.jpg');
+  }
+20.01%{
+background-image:url('../image/cleaning-service-during-work-PPTAZG5-1024x683.jpg') ;
+ }
+40%{
+background-image: url('../image/cleaning-service-during-work-PPTAZG5-1024x683.jpg');
+ }
+ 40.01%{
+  background-image:url('../image/girl.jpg') ;
+    }
+  60%{
+  background-image: url('../image/girl.jpg');
+   }
+  60.01%{
+   background-image:url('../image/ciiii.jpg') ;
+    }
+    80%{
+    background-image: url('../image/ciiii.jpg');
+    }  
+  80.01%{
+    background-image:url('../image/table\ clean.jpg') ;
+        }
+  100%{
+      background-image: url('../image/table\ clean.jpg');
+        }
+}
+.overlaywho{
+position: absolute;
+height: 100%;
+width: 100%;
+background: rgba(0,0,0,0.7);
+color:white;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.overlaywho h3{
+  font-size: 30px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+.overlaywho p{
+ font-size: 15px;
+   text-transform: capitalize;
+   color: white;
+   margin-top: 30px;
+   letter-spacing: 3px;
+   font-weight: bold;
+}
+.overlaywho a{
+  text-decoration: none;
+  margin-top: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  color:white;
+  font-size: 20px;
+  padding: 10px;
+  transition: .3s;
+  font-weight: 400;
+background-color: #93cb52;
+
+}
+.overlaywho a:hover{
+  background-color: darkgreen;
+  color: #ffffff;
+  transition:.2s ;
+  border: none;
+}
+
+
+/*our teams*//*our teams*//*our teams*//*our teams*//*our teams*//*our teams*//*our teams*//*our teams*//*our teams*/
+
+#money{
+  background-color: #93cb52;
+  text-align: center;
+}
+.section-title{
+text-align: center;
+font-size: 20px;
+color:grey;
+margin-top: 3rem;
+margin-bottom: 20px;
+text-transform: uppercase;
+font-weight: 400;
+}
+.bottom-line2{
+text-align: center;
+font-size: 15px;
+color:white;
+margin-top: 20px;
+margin-bottom: 20px;
+text-transform: capitalize;
+letter-spacing: 3px;
+}
+.texrt{
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-gap:2rem ;
+ margin-top: 20px;
+
+}
+.texrt ul{
+  list-style: none;
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.texrt li{
+  color: white;
+  font-size: smaller;
+  text-transform: capitalize;
+}
+.texrt p{
+  border-radius: 5px;
+  padding: 0.9rem;
+ color: gray;
+ line-height: 2rem;
+  font-size: 15px;
+  text-align: left;
+  background-color: white; 
+}
+.texrt img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+ margin-right: 0.5rem;
+}
+#home3{
+  text-align: center;
+  margin-top: 3rem;
+text-transform: capitalize;
+}
+#home3 p{
+  margin-bottom: 2rem;
+}
+#home3 a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color:white;
+  padding: 15px;
+  background-color: #333;
+}
+#home3 a:hover{
+  color: white;
+  
+  font-weight: bold;
+  padding: 15px;
+  background-color: darkgreen;
+}
+ 
+  
+/*laundaryexperts*//*laundaryexperts*//*laundaryexperts*//*laundaryexperts*//*laundaryexperts*//*laundaryexperts*/
+
+  /*upcoming events*//*upcoming events*//*upcoming events*//*upcoming events*//*upcoming events*/
+
+  .information{
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(0,0,0,0.8);
+  
+  }
+  marquee{
+    color: #ffffff;
+    font-size: small;
+  }
+.upcomingevent1{
+  background-image: url('../image/buid4.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 40vh;
+   text-align: center;
+   line-height: 5rem;
+   margin-top: 30px;
+   margin-bottom: 3rem;
+  }
+  .upcomingevent1:hover{
+   background-image: url('../image/download\ 6.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+  }
+  
+  .upcomingevent1 h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    text-align: left;
+    margin-left: 4rem;
+    font-weight: bold;
+  } 
+  .upcomingevent1 p{
+  font-size: 14px;
+  text-transform: capitalize;
+  font-size: 13px;
+  color:gray;
+  font-weight: 500;
+  }
+  /*upcoming events*//*upcoming events*//*upcoming events*//*upcoming events*//*upcoming events*/
+  .brotherlylove{
+    float: right;
+    width: 50%;
+    margin-right: 20px;
+    padding: 10px;
+  text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+  }
+  
+  .brotherlylove h1{
+    font-weight: lighter;
+    color: #93cb52;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+  line-height: 3rem;
+  text-align: center;
+  
+  }
+  
+  .brotherlylove p{
+  color:gray ;
+  text-transform: capitalize;
+  line-height: 2rem;
+  padding: 10px;
+  font-size: 13px;
+  }
+  .brotherlylove a{
+  text-decoration: none;
+     margin-top: 25px;
+     text-transform: uppercase;
+     display: inline-block;
+     color:white;
+     font-size: 12px;
+     padding: 10px;
+     background: #93cb52;
+   }
+   .brotherlylove a:hover{
+    background:darkgreen;
+    color: white;
+   }
+  
+  
+  .brotherlylove3{
+  float: left;
+  background-image: url('../image/photo-1592392513912-fd639ff32e98.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 300px;
+  margin-left: 50px;
+  border-radius: 10px;
+  margin-top: 70px;
+  }
+
+ 
+  #brotherlylove3{
+    float: left;
+  background-image: url('../image/covid1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 300px;
+  margin-left: 50px;
+  border-radius: 10px;
+  margin-top: 70px; 
+  }
+ 
+   /*input form your email */  /*input form your email *//*input form your email */ /*input form your email */
+.form-group{
+  padding: 20px;
+}
+.form-group label{
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #93cb52;
+}
+.form-group label i{
+  color: chocolate;
+}
+.form-group input{
+  width: 60%;
+  padding: 20px;
+  outline-style: none;
+  background-color: white;
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+}
+
+
+   /*input form your email*/ /*input form your email */ /*input form your email */ /*input form your email */
+
+   .newletter{
+    background-color:#333;
+    padding: 2rem;
+   }
+   
+    .subscribe h4{
+    font-size: 15px;
+    color: #93cb52;
+    text-transform: capitalize;
+    text-align: left;
+    margin-left:20px ;
+   
+    }
+    .subscribe p{
+     color: white;
+     margin-bottom: 2rem;
+     font-size: 12px;
+     text-transform: capitalize;
+     margin-left: 20px;
+     font-weight: lighter;
+     text-align:left;
+    }
+   
+    .inputspace input{
+     width: 40%;
+     padding: 10px;
+     margin-left: 20px;
+     border: 2px solid white;
+     outline-style: none;
+     background-color:white;
+     color: #333;
+     border-radius: 10px;
+     display: inline-block;
+    }
+    
+    .inputspace a{
+     display: inline-block;
+     background-color: #93cb52;
+     color: white;
+     text-transform: capitalize;
+     text-decoration: none;
+     font-size: 13px;
+     padding: 10px;
+     transition: .3s;
+   margin-left: 30px;
+    border-radius: 5px;
+     }
+    .inputspace a:hover{
+      background:darkgreen;
+      color: #ccc;
+    }
+/*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*/
+    footer{
+      background-color:darkgreen;
+    }
+    .quickfloat{
+      width: 30.5%;
+      float:left;
+      margin-top: 30px;
+      box-sizing: border-box;
+      margin-left: 20px;
+      padding: 20px;
+      text-align: center;
+     }
+    
+     .quickfloat p{
+      color: white;
+      text-align:justify;
+      font-size: 13px;
+      text-transform: capitalize;
+    line-height: 3rem;
+     }
+     .quickfloatlink a{
+text-align: justify;
+      color:white;
+      text-transform: capitalize;
+      text-decoration: none;
+      font-size: 14px;
+      padding: 10px;
+      transition: .3;
+display:inline-flex;
+
+     }
+     .quickfloatlink a:hover{
+       color: #93cb52;
+     }
+     .quickfloat h3{
+      margin-bottom: 20px;
+      font-size: 16px;
+      color: white;
+      text-transform: capitalize;
+      text-align: center;
+      font-weight: bold;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     .quickfloat address{
+      display: inline-block;
+      margin-top: 10px;
+      color:white;
+      padding: 10px;
+      font-size: 12px;
+      text-align: justify;
+      text-transform: capitalize;
+     }
+ .bottomicons h6{
+   text-transform: capitalize;
+   font-weight: lighter;
+   margin-bottom: 20px;
+ }
+ 
+.bottomicons{
+text-align: center;
+  color: white;
+  font-weight: lighter;
+
+}
+.bottomicons a{
+  text-decoration: none;
+  
+  }
+.bottomicons i{
+  padding: 5px;
+  color: white;
+  display: inline-flex;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  background-color: #93cb52;
+  border: white 1px solid;
+  font-size: small;
+}
+.bottomicons i:hover{
+  color: darkgreen;
+  cursor: pointer;
+}
+    
+
+   
+    .footer{
+     margin-top: 20px;
+     background-color:#93cb52;
+     color: white;
+     text-align: center;
+     padding: 20px;
+     text-transform: capitalize;
+font-size: 14px;
+ 
+ font-weight: lighter;
+    }
+    .footerp{
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+    text-transform: capitalize;
+    text-align: center;
+    }
+/*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*/
+   

@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+   body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+    
+   }
+
+
+   .big-image5{
+    height: 60vh;
+   border-bottom: 2rem solid white;
+  }
+  .overlay5 h1{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: chocolate;
+    text-align: center;
+    padding: 2rem;
+  }
+  .overlay5 p{
+    font-size: 12px;
+   text-transform: capitalize;
+   color: white;
+   margin-top: 30px;
+   font-weight: lighter;
+   font-style:unset;
+   text-align: center;
+   padding: 2rem;
+  }
+  #contact-form h1{
+    text-align:left;
+margin-bottom: 2rem;
+text-transform: uppercase;
+font-size:18px;
+font-weight: 500;
+color: red;
+margin-top: 2rem;
+margin-left: 30px;
+}
+#contact-form p{
+    padding: 20px;
+    font-size: 12px;
+    text-align: justify;
+    color: gray;
+}
+ 
+/*our professional*/
+#lastestsermon .container{
+    display: unset;
+   
+}
+
+.welcometostdenisknightofthealtar{
+    
+    padding: 3rem;
+    border-top: red 2rem solid;
+    
+}
+.welcometostdenisknightofthealtar h2{
+    text-align: center;
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    color:gray;
+    font-weight: bold;
+    margin-top: unset;
+     }
+    .welcometostdenisknightofthealtar p{ 
+      
+      font-size: 13px;
+      text-transform: capitalize;
+      line-height: 2rem;
+      color:grey;
+      font-style: normal;
+    
+    }
+     
+.headingslatest{
+    display: block;
+    width: 100%;
+    margin-left: unset;
+    border: unset;
+    box-sizing: border-box;
+    text-align: center; 
+   margin-top: unset;
+   margin-bottom: unset; 
+   box-shadow: unset;
+   background-color: unset; 
+}
+.headingslatest img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 2rem;
+    width:60%;
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+  border-top: unset;
+  }
+   .headingslatest p{
+    color: gray;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+  font-size: 12px;
+  margin-top: 5px;
+ margin-bottom: 5px; 
+ padding: 2rem;
+   }
+
+
+.center a{
+  text-decoration: none;
+margin-bottom: 2rem;
+  text-transform: capitalize  ;
+  display: inline-block;
+  color:#f4f4f4;
+  font-size: 13px;
+  transition: .3s;
+  font-weight: lighter;
+  padding: 20px;
+  background: red;
+  border-radius: 20px;
+}
+.center a:hover{
+ background:white;
+ color: red;
+ border-radius: 20px;
+ transition:.2s ; 
+padding: 20px;
+font-weight: 600;
+}
+/*professional servicese*//*professional servicese*//*professional servicese*//*professional servicese*/
+
+
+
+
+#money{
+    
+    background-image: url('../image/download\ 4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+  }
+       .section-title{
+        text-align: center;
+        font-size: 20px;
+        color:#333;
+        margin-top: 3rem;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+      letter-spacing: 4px;
+        font-weight: 600;
+      }
+      .bottom-line2{
+        text-align: center;
+        font-size: 15px;
+        color:white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+        letter-spacing: 3px;
+      }
+           .texrt{
+            display:inline-block;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap:1rem ;
+            margin-top: 20px;
+         
+           }
+        
+           .texrt ul{
+             list-style: none;
+             display: flex;
+             margin-top: 1rem;
+             align-items: center;
+             margin-bottom: 2rem;
+           }
+           .texrt li{
+             color:chocolate;
+             font-size: smaller;
+             text-transform: capitalize;
+             font-weight: 600;
+           }
+           .texrt p{
+             border-radius: 5px;
+             padding: 0.5rem;
+            color: grey;
+             font-size: 13px;
+             text-align: center;
+             border: solid 1px wheat;
+             background-color: white;
+             padding: 2rem; 
+             
+           }
+           .texrt img{
+             width: 50px;
+             height: 50px;
+             border-radius: 50%;
+            margin-right: 0.5rem;
+           }
+      
+           .form-group input{
+            width: 80%;
+            padding: 20px;
+            outline-style: none;
+            background-color: white;
+            color: white;
+            border-radius: 20px;
+    border:chocolate solid 1px;
+          }
+          .advertcolor{
+              background-color: chocolate;
+          }
+
+          .advertcolor p{
+            color: white;
+        }
+        .advertcolor h2{
+            color: white;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ourcolevalue {
+    border-top: 2rem solid #333;
+}
+.ourcolevalue h1 {
+
+    color: red;
+}
+.headingsforcolevalue{
+     background-color:rgba(0,0,0,0.9);
+ 
+      }
+ .headingsforcolevalue p{
+        color: grey;
+        font-size: 13px;
+    }

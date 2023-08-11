@@ -1,0 +1,297 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+     }
+.mainheader{
+background-color: unset;
+font-weight: bold;
+}
+
+.mainheadertitle{
+padding: 20px;
+font-size:10px;
+text-transform: capitalize;
+color: gray;
+text-align:center;
+}
+.email {
+display: block;
+}
+.text-primary{
+color: red;
+}
+.mainheadertitle i{
+color: gray;
+font-size: 15px;
+}
+#navbar{
+background-color: #333;
+position: unset;
+top: 0;
+display: flex;
+justify-content: space-between;
+z-index: unset;
+padding: 1rem;
+
+}
+#navbar .logo{
+font-size: 15px;
+text-transform: capitalize;
+}
+#navbar ul{
+display: inline-block; 
+text-align: justify;
+padding: 20px;
+}
+#navbar ul li {
+border-bottom : 1px solid gray;
+margin-bottom: 10px;
+}
+#navbar ul li a{
+color: #f4f4f4;
+padding: 0.75rem;
+margin: 0 0.25rem;
+font-size: 12px;
+}
+#navbar ul li a:hover{
+transition: 1s;
+color: red;
+background-color: unset;
+}
+
+
+.up h3 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+  } 
+  .up p{
+  font-size: 14px;
+  text-transform: capitalize;
+  font-size: 12px;
+  color:red;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-style: unset;
+  }
+
+
+  #aboutus{
+    background-color: lightgray;
+    overflow: hidden;
+    display: block;
+}
+
+.page-container{
+display: block;
+grid-template-columns: unset;
+margin: unset;
+grid-gap:unset;
+width: 100%;
+background-color: white;
+}
+/*
+.page-container *:first-child{
+ grid-row: 1/span 3;
+}
+*/
+.card{
+ padding: 2rem;
+ display:block;
+}
+.card h1{
+text-align: left;
+margin-bottom: 2rem;
+text-transform: uppercase;
+font-size:18px;
+font-weight: 500;
+color: #333;
+}
+.card p{
+ font-size: 12px;
+ text-align: justify;
+}
+.join{
+ padding: 2rem;
+ text-align: center; 
+ background-color: #93cb52;
+}
+.join h2{
+ text-align: center;
+ margin-bottom: 2rem;
+ text-transform: uppercase;
+ font-size:15px;
+ font-weight: bold;
+ color: grey;
+ }
+.join p{
+font-size: 14px;
+color: white;
+}
+.btn-joinnow {
+text-decoration: none;
+color: #93cb52;
+background-color: #ffffff;
+padding: 15px;
+text-transform: capitalize;
+}
+.btn-joinnow:hover{
+ color: #ffffff;
+ background-color: #333;
+}
+
+/*rateus here*//*rateus here*//*rateus here*//*rateus here*//*rateus here*//*rateus here*//*rateus here*//*rateus here*/
+.rateus  {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 2rem;
+}
+.rateus h4{
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  font-weight: lighter;
+  font-size: 20px;
+  color: grey;
+}
+.rateus p{
+  font-size: 13px;
+}
+.rateus i{
+  color: green;
+  padding: 5px;
+}
+#rateusdiff {
+  color: lightgray;
+}
+.flex .flex2{
+display:flex;
+padding: 2rem;
+}
+
+
+.flex .flex2 .flex3{  
+   flex: 1;
+   text-align: center;
+     padding: 1rem;      
+text-transform: capitalize;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+   }
+   .flex3 p{
+     color: gray;
+     text-transform: capitalize;
+     
+   }
+#flex4{
+/* background:lightgrey;*/
+}
+#flex4 h3{
+ color: #93cb52;
+ margin-top: 10px;
+ font-weight: lighter; 
+}
+#flex5{
+/* background: #333;*/
+}
+#flex5 h3{
+ color: white;
+ margin-top: 10px;
+ font-weight: lighter;
+}
+
+.flex .flex2 .flex3 i{
+ background-color: white;
+ padding: 1rem;
+ border-radius: 50%;
+ margin-bottom: 1rem;
+ color: green;
+} 
+.container2{
+display: unset;
+} 
+
+
+/*rateus here*//*rateus here*//*rateus here*//*rateus here*//*rateus here*//*rateus here*//*rateus here*//*rateus here*/
+
+#about-c{
+border-bottom: 3rem solid white;
+  padding: 20px;
+}
+  .about-clogos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:3rem ;
+    margin-top: 20px;
+     }
+     .about-clogos img{
+       width: 100%;
+     }
+
+     #money{
+      background-color:rgba(0,0,0,0.7);
+    }
+         .section-title{
+          text-align: center;
+          font-size: 20px;
+          color:#333;
+          margin-top: 3rem;
+          margin-bottom: 20px;
+          text-transform: uppercase;
+        letter-spacing: 4px;
+          font-weight: 600;
+        }
+        .bottom-line2{
+          text-align: center;
+          font-size: 15px;
+          color:white;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          text-transform: capitalize;
+          letter-spacing: 3px;
+        }
+             .texrt{
+              display:inline-block;
+              grid-template-columns: repeat(4, 1fr);
+              grid-gap:1rem ;
+              margin-top: 20px;
+           
+             }
+          
+             .texrt ul{
+               list-style: none;
+               display: flex;
+               margin-top: 1rem;
+               align-items: center;
+               margin-bottom: 2rem;
+             }
+             .texrt li{
+               color:chocolate;
+               font-size: smaller;
+               text-transform: capitalize;
+               font-weight: 600;
+             }
+             .texrt p{
+               border-radius: 5px;
+               padding: 0.5rem;
+              color: grey;
+               font-size: 13px;
+               text-align: center;
+               border: solid 1px wheat;
+               background-color: white;
+               padding: 2rem; 
+               
+             }
+             .texrt img{
+               width: 50px;
+               height: 50px;
+               border-radius: 50%;
+              margin-right: 0.5rem;
+             }
+        
+  
+  
+  
+  

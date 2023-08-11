@@ -1,0 +1,895 @@
+
+       body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    
+         }
+.mainheader{
+background-color: unset;
+font-weight: bold;
+}
+
+.mainheadertitle{
+    padding: 20px;
+    font-size:10px;
+    text-transform: capitalize;
+    color: gray;
+    text-align:center;
+  }
+  .email {
+    display: block;
+}
+ .text-primary{
+  color: red;
+}
+.mainheadertitle i{
+    color: gray;
+    font-size: 15px;
+}
+#navbar{
+    background-color: #333;
+position: unset;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: unset;
+    padding: 1rem;
+
+}
+#navbar .logo{
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+  #navbar ul{
+    display: inline-block; 
+    text-align: justify;
+padding: 20px;
+}
+#navbar ul li {
+    border-bottom : 1px solid gray;
+    margin-bottom: 10px;
+}
+#navbar ul li a{
+    color: #f4f4f4;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+    font-size: 12px;
+   }
+   #navbar ul li a:hover{
+    transition: 1s;
+    color: red;
+   background-color: unset;
+   }
+/*image*//*image*//*image*//*image*//*image*//*image*/
+   .big-image{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url('../image/handlove.jpg');
+ animation: unset;
+  }
+  
+  .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.9);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+
+
+   .overlay h1{
+    font-size: 13px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: chocolate;
+  }
+  .overlay p{
+    font-size: 12px;
+   text-transform: capitalize;
+   color: white;
+   margin-top: 30px;
+   letter-spacing: 3px;
+   font-weight: lighter;
+   font-style: unset;
+  }
+  .overlay a{
+    display: none;
+  }
+  .overlay a:hover{
+    background: white;
+    color: #333;
+    border-radius: 55px;
+    transition:.2s ;
+    border: none;
+font-weight: lighter;    
+  }
+  .overlay .respond {
+    display: unset;
+    text-align: center;
+  }
+  
+ 
+ 
+/*image*//*image*/
+
+/*who we are*//*who we are*//*who we are*//*who we are*//*who we are*//*who we are*//*who we are*//*who we are*/
+#sho  {
+  text-align: center;
+}
+
+#sho h2 i{
+    display: none;
+}
+
+#sho p{
+  text-align: center;
+    line-height: 2rem;
+    padding: 10px;
+    font-size: 13px;
+    overflow: hidden;
+   text-transform: capitalize;
+   font-style: italic;
+  
+}
+#sho .center {
+  display: unset;
+  text-align: center;
+}
+
+
+/*who we are*//*who we are*//*who we are*//*who we are*//*who we are*//*who we are*//*who we are*//*who we are*/
+
+
+ /*what we do*/ /*what we do*/ /*what we do*/ /*what we do*/ /*what we do*/ /*what we do*/ /*what we do*/ /*what we do*/
+  
+ #what{
+    background-color:unset;
+    display: none;
+  }
+  .container{
+    
+    padding: 0 2rem;
+    overflow: hidden;
+    }
+    .ourchurch{
+        text-align: center;
+        text-transform: capitalize;
+        margin-bottom: unset;
+      font-weight: lighter;
+        letter-spacing: 3px;
+
+      }
+      
+
+ /*what we do*/ /*what we do*/ /*what we do*/ /*what we do*/ /*what we do*/ /*what we do*/ /*what we do*/ /*what we do*/
+ .rateus  {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 2rem;
+}
+.rateus h4{
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  font-weight: lighter;
+  font-size: 20px;
+  color: grey;
+}
+.rateus p{
+  font-size: 13px;
+}
+.rateus i{
+  color: green;
+  padding: 5px;
+}
+#rateusdiff {
+  color: lightgray;
+}
+.flex .flex2{
+display:flex;
+padding: 2rem;
+}
+
+
+.flex .flex2 .flex3{  
+   flex: 1;
+   text-align: center;
+     padding: 1rem;      
+text-transform: capitalize;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+   }
+   .flex3 p{
+     color: gray;
+     text-transform: capitalize;
+     
+   }
+   /*
+#flex4{
+ background:lightgrey;
+}*/
+#flex4 h3{
+ color: #93cb52;
+ margin-top: 10px;
+ font-weight: lighter; 
+}/*
+#flex5{
+/* background: #333;
+}*/
+#flex5 h3{
+ color: white;
+ margin-top: 10px;
+ font-weight: lighter;
+}
+
+.flex .flex2 .flex3 i{
+ background-color: white;
+ padding: 1rem;
+ border-radius: 50%;
+ margin-bottom: 1rem;
+ color: green;
+} 
+.container2{
+display: unset;
+} 
+
+
+/*rateus here*//*rateus here*//*rateus here*//*rateus here*//*rateus here*//*rateus here*//*rateus here*//*rateus here*/
+
+
+
+
+/*our professional*/
+#lastestsermon .container{
+    display: unset;
+}
+
+.welcometostdenisknightofthealtar{
+    
+    padding: 3rem;
+    border-top: red 2rem solid;
+}
+.welcometostdenisknightofthealtar h2{
+    text-align: center;
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    color:gray;
+    font-weight: bold;
+    margin-top: unset;
+     }
+    .welcometostdenisknightofthealtar p{ 
+      
+      font-size: 13px;
+      text-transform: capitalize;
+      line-height: 2rem;
+      color:grey;
+      font-style: normal;
+  
+    }
+    
+.headingslatest{
+    display: block;
+    width: 100%;
+    margin-left: unset;
+    border: unset;
+    box-sizing: border-box;
+    text-align: center; 
+   margin-top: unset;
+   margin-bottom: unset; 
+   box-shadow: unset;
+   background-color: unset; 
+}
+.headingslatest img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 2rem;
+    width:60%;
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+  border-top: 2rem solid #333;
+  }
+   .headingslatest p{
+    color: gray;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+  font-size: 12px;
+  margin-top: 5px;
+ margin-bottom: 5px; 
+ padding: 2rem;
+   }
+
+
+.center a{
+  text-decoration: none;
+margin-bottom: 2rem;
+  text-transform: capitalize  ;
+  display: inline-block;
+  color:#f4f4f4;
+  font-size: 13px;
+  transition: .3s;
+  font-weight: lighter;
+  padding: 20px;
+  background: red;
+  border-radius: 20px;
+}
+.center a:hover{
+ background:white;
+ color: red;
+ border-radius: 20px;
+ transition:.2s ; 
+padding: 20px;
+font-weight: 600;
+}
+/*professional servicese*//*professional servicese*//*professional servicese*//*professional servicese*/
+
+
+/*our teams*//*our teams*//*our teams*//*our teams*//*our teams*//*our teams*//*our teams*//*our teams*//*our teams*/
+
+.overlayimage{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background-size:cover;
+    background-position: center;
+    background-image: url('../image/covid.jpg');
+    animation: overlayimage 20s;
+     animation-iteration-count: infinite;
+  border-top: 2rem solid red;
+  }
+  @keyframes overlayimage{
+    0%{
+  background-image:url('../image/covid.jpg') ;
+    }
+    20%{
+  background-image: url('../image/covid.jpg');
+    }
+  20.01%{
+  background-image:url('../image/man\ clean.jpg') ;
+   }
+  40%{
+  background-image: url('../image/man\ clean.jpg');
+   }
+   40.01%{
+    background-image:url('../image/vvv.jpg') ;
+      }
+    60%{
+    background-image: url('../image/vvv.jpg');
+     }
+    60.01%{
+     background-image:url('../image/laun2.jpg') ;
+      }
+      80%{
+      background-image: url('../image/laun2.jpg');
+      }  
+    80.01%{
+      background-image:url('../image/ciiii.jpg') ;
+          }
+    100%{
+        background-image: url('../image/ciiii.jpg');
+          }
+  }
+  .overlaywho{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  }
+  .overlaywho h3{
+    text-transform:capitalize;
+  color: #f4f4f4;
+  letter-spacing: 5px;
+  font-style: normal;
+  font-size: 25px;
+  font-weight: lighter;
+  }
+  .overlaywho p{
+    font-size: 12px;
+   text-transform: capitalize;
+   color:wheat;
+   margin-top: unset;
+   padding: 1rem;
+   letter-spacing:3px;
+  font-weight:400;
+   font-style: italic;
+  }
+  .overlaywho a{
+    text-decoration: none;
+    margin-top: unset;
+    text-transform: uppercase;
+    display: inline-block;
+    color:white;
+    font-size: 20px;
+    padding: 20px;
+    transition: .3s;
+    font-weight: bold;
+    
+  }
+  .overlaywho a:hover{
+    background: white;
+    color: #333;
+    border-radius: 40px;
+    transition:.2s ;
+    border: none;
+    
+  }
+   
+     
+  /*our teams*//*our teams*//*our teams*//*our teams*//*our teams*//*our teams*//*our teams*//*our teams*//*our teams*/
+
+/*laundaryexperts*//*laundaryexperts*//*laundaryexperts*//*laundaryexperts*//*laundaryexperts*//*laundaryexperts*/
+#laundaryexperts {
+  display:block;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}     
+#laundaryexperts div {
+flex: 1;
+} 
+#laundaryexperts .imgexperts {
+    
+    border-top: 2rem solid grey;
+  height: 50vh;
+  border-radius:unset;
+  margin-left:unset;
+  
+}
+
+
+
+#laundaryexperts .cleaningexperts {
+ 
+  height: 50vh;
+  border-radius:unset;
+  margin-left:unset;
+ 
+}
+
+.laundary{
+  text-align: center;
+  padding-top: 3rem;
+} 
+.laundary h2{
+  text-transform: capitalize;
+  font-weight: 400;
+  padding-bottom: 10px;
+  color: grey;
+  line-height: 2rem;
+  font-size: 20px;
+}  
+.laundary p{
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 2rem;
+    padding-bottom: 25px;
+    color: grey;
+    line-height: 2rem;
+    font-size: 13px;
+  }  
+.ourcolevalue h1{
+  color: wheat;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-bottom: 30px;
+ }
+.headingsforcolevalue{
+  float: left;
+  width: 31.1%;
+  border: none;
+  box-sizing: border-box;
+  text-align: center; 
+  cursor: pointer;
+  margin-left: 20px;
+  
+  padding: 20px;
+}
+.ourcolevalue i{
+  font-size: 20px;
+  color: white;
+  background-color: chocolate;
+  padding: 15px;
+  border-radius: 50%;
+  margin-top: 20px;
+ }
+ .centervalue{
+   text-align: center;
+ }
+ .centervalue a{
+  text-decoration: none;
+  margin-top:5rem;
+    text-transform:uppercase ;
+    display: inline-block;
+    color:#f4f4f4;
+    font-size: 13px;
+    transition: .3s;
+
+    padding: 20px;
+    background: chocolate;
+    border-radius: 10px;
+    width: 50%;
+ }
+ .centervalue a:hover{
+  background: #93cb52;
+  opacity: 0.7;
+    font-size:smaller;
+    transition:.2s ; 
+ }
+ 
+
+ .ourcolevalue h1{
+    font-weight:lighter;
+  
+   }
+  .headingsforcolevalue{
+display: block;
+width: 100%;
+ margin-left: unset;
+    background-color:red;
+  
+    
+  }
+  .headingsforcolevalue p{
+      color: white;
+      font-size: 13px;
+  }
+  
+   .centervalue{
+     text-align: center;
+     margin-bottom: 2rem;
+   }
+   .centervalue a{
+    text-decoration: none;
+    margin-top:2rem;
+      text-transform:uppercase ;
+      display: inline-block;
+      color:#f4f4f4;
+      font-size: 13px;
+      transition: .3s;
+      padding: 20px;
+      background: chocolate;
+      border-radius: unset;
+      width: 50%;
+   }
+   .centervalue a:hover{
+    background: red;
+    opacity: 0.7;
+      font-size:smaller;
+      transition:.2s ; 
+   }
+/*laundaryexperts*//*laundaryexperts*//*laundaryexperts*//*laundaryexperts*//*laundaryexperts*//*laundaryexperts*/
+
+
+.ourcolevalue2 h1{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top:20px;
+    
+   }
+   .ourcolevalue2 h3{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight:bold;
+    margin-bottom: 30px;
+    
+   }
+   .headingsforcolevalue img{
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+  }
+  
+  .ourcolevalue2{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    overflow: hidden;
+    background-color: chocolate;
+  }
+  .ourcolevalue2 p{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+    padding: 2rem;
+  }
+ 
+  #laundaryexperts .adverts {
+    background-image: url('../image/download\ 6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    animation: advert 60s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+    display: none;
+  
+  }
+  
+  footer{
+    background-color: chocolate;
+  }
+  .quickfloat p{
+text-align: center;
+color: wheat;
+  }
+  .quickfloat{
+    width:100%;
+text-align: center;
+    margin-top: 30px;
+    box-sizing: border-box;
+    margin-left: unset;
+    padding: 20px;
+   }
+
+
+
+   .quickfloatlink a{
+    text-align: justify;
+          color:#333;
+          font-weight: 600;
+          text-transform: capitalize;
+          text-decoration: none;
+          font-size: 14px;
+          padding: 10px;
+          transition: .3;
+    display:inline-flex;
+    
+         }
+         .quickfloatlink a:hover{
+           color: wheat;
+         }
+         .quickfloat h3{
+          margin-bottom: 20px;
+          letter-spacing: 3px;
+          font-size: 16px;
+          color: white;
+          text-transform: capitalize;
+          text-align: center;
+          font-weight:600;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         }
+         .quickfloat address{
+          display: inline-block;
+          margin-top: 10px;
+          color:#333;
+          padding: 10px;
+          font-weight: 600;
+          font-size: 12px;
+          text-align: justify;
+          text-transform: capitalize;
+         }
+     .bottomicons h6{
+       text-transform: capitalize;
+       font-weight: lighter;
+       margin-bottom: 20px;
+       color: wheat;
+       text-align: right;
+       margin-right: 20px;
+       font-size: 12px;
+     }
+     
+    .bottomicons{
+    text-align: center;
+      color: white;
+      font-weight: lighter;
+    
+    }
+    .bottomicons i{
+      padding: 5px;
+      color: #333;
+      display: inline-flex;
+      margin-bottom: 20px;
+      border-radius: 50px;
+      background-color: wheat;
+      border: white 1px solid;
+      font-size: small;
+    }
+    .bottomicons i:hover{
+      color: grey;
+      cursor: pointer;
+    }
+        
+   footer #navbar{
+    background: #333;
+color: chocolate;
+position: sticky;
+    top: 0;
+    display: flex;
+    justify-content:unset;
+    z-index: 1;
+    padding: 1rem;
+    font-weight: lighter;
+   }
+
+   .footer{
+    margin-top: 20px;
+    background-color:#333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+font-size: 14px;
+margin-bottom: 30px;
+font-weight: lighter;
+   }
+   .footerp{
+   color: wheat;
+   padding: 10px;
+   font-size: 13px;
+   text-transform: capitalize;
+   text-align: center;
+   }
+/*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*/
+
+
+   .brotherlylove{
+    float: none;
+    width: 100%;
+    margin-right:unset;
+    padding: 10px;
+  text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border-top:  2rem chocolate solid;
+  }
+  
+  .brotherlylove h1{
+    font-weight: lighter;
+    color: coral;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+  line-height: 3rem;
+  text-align: center;
+  
+  }
+  
+  .brotherlylove p{
+  color:wheat;
+  text-transform: capitalize;
+  line-height: 2rem;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: lighter;
+  }
+  .brotherlylove a{
+  text-decoration: none;
+     margin-top: 25px;
+     text-transform: uppercase;
+     display: inline-block;
+     color:white;
+     font-size: 12px;
+     padding: 1rem;
+     background:chocolate;
+   }
+   .brotherlylove a:hover{
+    background:red;
+    color: grey;
+    font-weight: 600;
+   }
+  
+  
+  .brotherlylove3{
+  float: none;
+  background-image: url('../image/table\ clean.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:auto;
+
+  height: 300px;
+  margin-left: unset;
+  border-radius:unset;
+  margin-top: 70px;
+  }
+
+  .brotherlylove3:hover{
+  background-image: url('../image/ciiii.jpg');
+  }
+
+
+  .new10{
+    color: red;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 14px;
+   }
+   .new10 i{
+    font-size: 20px;
+    color:chocolate;
+    margin-bottom: unset;
+   margin-right: 10px;
+   }
+
+  .new2{
+    width: 100%;
+    float: none;
+    display: block;
+    border: none;
+    box-sizing: border-box;
+    margin-left: unset;
+    text-align: center;
+    margin-top: 30px;
+   }
+   .new5{
+    color: grey;
+    text-transform: capitalize;
+    font-size: 13px;
+    padding: 1rem;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+ /*upcoming events*//*upcoming events*//*upcoming events*//*upcoming events*//*upcoming events*/
+
+ .information{
+  width: 100%;
+  height: 50vh;
+  background-color: rgba(0,0,0,0.8);
+  border-bottom: unset;
+
+}
+.upcomingevent1{
+background-image: url('../image/download\ 4.jpg');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 50vh;
+ text-align: center;
+ line-height: 5rem;
+ margin-top: 30px;
+ margin-bottom: 3rem;
+}
+.upcomingevent1:hover{
+ background-image: url('../image/download\ 6.jpg');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+.upcomingevent1 a i{
+ text-decoration: none;
+ color: chocolate;
+ font-size: 25px;
+}
+.upcomingevent1 a i:hover{
+ color: red;
+}
+.upcomingevent1 h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: chocolate;
+  text-align: center;
+  font-weight: lighter;
+} 
+.upcomingevent1 p{
+font-size: 14px;
+text-transform: capitalize;
+font-size: 13px;
+color:white;
+font-weight: 500;
+}
+/*upcoming events*//*upcoming events*//*upcoming events*//*upcoming events*//*upcoming events*/

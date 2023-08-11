@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+   body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+   }
+
+.join34{
+
+    padding: 2rem;
+    text-align: center; 
+    background-size: cover;
+    background-position: center;
+    background-image: url('../image/interior-of-office-building-PTBM4L2-1024x683.jpg');
+    height: 70vh;
+
+    }
+
+ 
+    #officeclean{
+        background-color: darkslateblue;
+        padding: 3rem;
+    }
+
+    #officeclean h1{
+        color: white;
+    margin-bottom: 2rem;
+    }
+
+.con3{
+    display: flex;
+    justify-content: space-between;
+    line-height: 3rem;
+}
+.con2{
+text-transform: capitalize;
+font-size: x-large;
+color: white;
+}
+.con1{
+    text-transform: capitalize;
+    font-size: x-large;
+    color: white;
+    }
+ #officeclean i{
+    color: white;
+    
+   
+}
+#officeclean i{
+    color: white;
+
+}
+.join345{
+    padding: 2rem;
+    text-align: center; 
+    background-color: #93cb52;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../image/modern-designer-studio-PTSCHRR-1024x683.jpg');
+    height: 65vh;
+}
+.off{
+    color: gray;
+    margin: 2rem;
+}
+.big-image-off{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size:cover;
+    background-position:center;
+background-image: url('../image/ciiii.jpg');
+  animation: off 20s;
+  animation-iteration-count: infinite;
+  }
+  
+  @keyframes off{
+    0%{
+  background-image:url('../image/interior-of-office-building-PTBM4L2-1024x683.jpg') ;
+    }
+    20%{
+  background-image: url('../image/interior-of-office-building-PTBM4L2-1024x683.jpg');
+    }
+  20.01%{
+  background-image:url('../image/modern-designer-studio-PTSCHRR-1024x683.jpg') ;
+   }
+  40%{
+  background-image: url('../image/modern-designer-studio-PTSCHRR-1024x683.jpg');
+   }
+   40.01%{
+  background-image:url('../image/office22.jpg') ;
+    }
+  60%{
+  background-image: url('../image/office22.jpg');
+   }
+  60.01%{
+   background-image:url('../image/wide.jpg') ;
+    }
+    80%{
+    background-image: url('../image/wide.jpg');
+    }  
+  80.01%{
+    background-image:url('../image/phone.jpg') ;
+        }
+  100%{
+      background-image: url('../image/phone.jpg');
+        }
+  
+       }
+  
+  
+  .overlay-off{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+ 
+  .overlay-off h1{
+    font-size: x-large;
+text-align: center;
+margin: 2rem;
+text-transform: capitalize;
+color: white;
+  }
+  .overlay-off p{
+    margin-bottom: 2rem;
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: white
+  
+  }
+  
+  .overlay-off a{
+    text-decoration: none;
+    margin-top: 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 3rem;
+    transition: .3s;
+    font-weight: 400;
+background-color: #93cb52;
+  
+  }
+  .overlay-off a:hover{
+  background-color: darkgreen;
+    color: #ffffff;
+    transition:.2s ;
+    border: none;
+
+  
+  }
